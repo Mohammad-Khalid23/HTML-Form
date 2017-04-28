@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admision Form</title>
+    <style>
+    
+    body {
+        background-color:#DFFCDB;
+    }
+    </style>
+</head>
+
+<body>
+
+    <h1>Online Registraion</h1>
+    <img src="Saylani-logo.png" alt="Saylani Logo" height="82%">
+    <p>Fill the below and submit to us for online registration. We will contact you as soon as we recieve your enquiry  </p>
+    <form>
+        <p> Name of Student:
+            <input type="text" name="name">
+        </p>
+        <p> Date of Birth:
+            <select name="day">
+                     <option value="">01</option>
+            </select>
+
+            <select name="month">
+                     <option value="">Jan</option>
+           </select>
+
+            <select name="year"> 
+                    <option value="">2016</option>
+             </select>
+        </p>
+        <p> Address:
+            <textarea rows="3" cols="15"></textarea>
+        </p>
+        <p>Seeking admision to class:
+            <select name="AdmisionClass">
+                        <option value="">KG I</option>
+                    <option value="">KG II</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+         </select> <br> <br>
+          <p>Select Intrested Subject:
+              <input type="checkbox" name="subject" checked="checked" value="">Math
+               <input type="checkbox" name="subject" value="">Physics
+                <input type="checkbox" name="subject" value="">Chemistry
+                 <input type="checkbox" name="subject" value="">English
+          
+          </p> 
+     
+  <input type="radio" checked="checked" value="">Morning
+        <input type="radio"  value="">Day
+
+        </p>
+        <label for="prize">Prize won by the Student (if anay):</label>
+        <input id="prize" type="text" name="prize" value=""> <br> <br>
+
+        <label for="pname">Name of parent/guirdian:</label>
+        <input id="pname" type="text" name="" value=""> <br> <br>
+
+        <label for="job">Job title of parent/guirdian:</label>
+        <input id="job" type="text" name="" value="">
+        <br> <br>
+        <label for="income">Annual family income(in Rs):</label>
+        <input id="income" type="number" name="income" value="">
+        <br> <br>
+        <label for="number">Telephone/Mobile:</label>
+        <input id="number" type="number" name="" value="">
+        <br> <br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="Email" value="">
+  <p>Pleas use space below to mention any other information About Student achievments: <br>
+        <textarea rows="8" cols="30"></textarea>
+    </p>
+    <input type="submit" name="submit" value="Submit">
+    </form>
+  
+</body>
+
+</html>
